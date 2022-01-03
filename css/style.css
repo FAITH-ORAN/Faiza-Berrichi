@@ -40,7 +40,7 @@ font-family: NEUROPOL ;
   border-radius: 0.1875rem;
   padding: 11px 22px;
   cursor: pointer;
-  background-color: #ffc3be;
+  background-color: #63A5A1;
   color: #FFFFFF; }
   .btn:hover, .btn:focus, .btn:active, .btn.active, .btn:active:focus, .btn:active:hover, .btn.active:focus, .btn.active:hover,
   .show > .btn.dropdown-toggle,
@@ -60,17 +60,22 @@ font-family: NEUROPOL ;
   .navbar .navbar-nav > a.btn.dropdown-toggle:focus,
   .show >
   .navbar .navbar-nav > a.btn.dropdown-toggle:hover {
-    background-color: #979797;
-    color: #FFFFFF;
+    background-color: white;
+    color: #63A5A1;
     box-shadow: none; }
   .btn:hover,
   .navbar .navbar-nav > a.btn:hover {
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17); }
   .btn.disabled, .btn.disabled:hover, .btn.disabled:focus, .btn.disabled.focus, .btn.disabled:active, .btn.disabled.active, .btn:disabled, .btn:disabled:hover, .btn:disabled:focus, .btn:disabled.focus, .btn:disabled:active, .btn:disabled.active, .btn[disabled], .btn[disabled]:hover, .btn[disabled]:focus, .btn[disabled].focus, .btn[disabled]:active, .btn[disabled].active,
-
+ 
+  .fa-codepen{
+    font-size: 24px !important;
+   text-align: center;
+  }
+ 
   .navbar .navbar-nav > a.btn.active {
-    background-color: #888;
-    border-color: #888; }
+    background-color: #63A5A1;
+    border-color:#63A5A1; }
   .btn.btn-simple,
   .navbar .navbar-nav > a.btn.btn-simple {
     color: #888;
@@ -81,7 +86,7 @@ font-family: NEUROPOL ;
     .navbar .navbar-nav > a.btn.btn-simple:active {
       background-color: transparent;
       color: #979797;
-      border-color: #979797;
+      border-color: #63A5A1;
       box-shadow: none; }
   .btn.btn-link,
   .navbar .navbar-nav > a.btn.btn-link {
@@ -396,14 +401,14 @@ p {
   height: 60px;
   width: 60px;
   font-weight: 400;
-  color: #9A9A9A;
+  color: white;
   margin-right: 19px;
-  background-color: rgba(222, 222, 222, 0.3);
+  background-color: rgba(27, 117, 117, 0.3);
   border-radius: 30px; }
   .nav-pills .nav-item .nav-link:hover {
     background-color: rgba(222, 222, 222, 0.3); }
   .nav-pills .nav-item .nav-link.active, .nav-pills .nav-item .nav-link.active:focus, .nav-pills .nav-item .nav-link.active:hover {
-    background-color: #9A9A9A;
+    background-color: #63A5A1;
     color: #FFFFFF;
     box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.3); }
   .nav-pills .nav-item .nav-link.disabled, .nav-pills .nav-item .nav-link:disabled, .nav-pills .nav-item .nav-link[disabled] {
@@ -415,7 +420,7 @@ p {
   line-height: 60px; }
 
 .nav-pills.nav-pills-primary .nav-item .nav-link.active, .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus, .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
-  background-color: #ffc3be; }
+  background-color: #63A5A1; }
 
 .nav-align-center {
   text-align: center; }
@@ -572,7 +577,7 @@ img {
     .footer ul li {
       display: inline-block; }
       .footer ul li a {
-        color: inherit;
+        color: #63A5A1;
         padding: 0.5rem;
         font-size: 0.8571em;
         text-transform: uppercase;
@@ -748,7 +753,7 @@ img {
     background-color: rgba(0, 0, 0, 0.5); }
   .page-header[filter-color="black"] {
     background: rgba(44, 44, 44, 0.2);
-    background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(67, 71, 79, 0.6));
+    background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(75, 94, 95, 0.6));
      }
   .page-header .container {
     z-index: 2; }
@@ -1717,7 +1722,7 @@ img {
 
 .cc-profile-image a:before {
   content: "";
-  border: 15px solid rgba(255,195, 190, 0.6);
+  border: 15px solid rgba(22, 172, 172, 0.6);
   border-radius: 50%;
   height: 180px;
   width: 180px;
@@ -1832,17 +1837,24 @@ img {
 /* Footer */
 /* Social button style */
 .cc-github:hover i {
-  color: black; }
+  color: #63A5A1; }
 
 .cc-behance:hover i {
-  color: black; }
+  color: #63A5A1; }
 
 .cc-linkedin:hover i {
-  color: #007bb6; }
+  color: #63A5A1; }
 
 .cc-wordpress:hover i {
-  color: #21769b; }
+  color: #63A5A1; }
 
 /* Common Style */
 .section {
   padding-bottom: 0; }
+.design{
+  color:#63A5A1;
+}
+.design:hover{
+  color:#63A5A1;
+}
+
